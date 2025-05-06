@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- SETUP BOOTSTAP: link to Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<!-- link to JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<!-- Add style -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+
+<form>
+<h1>Check your average from these subjects:</h1>
+<hr>
+<br>
+
+<div class="container">
+<img src = "https://img.freepik.com/free-vector/science-lab-objects_23-2148488312.jpg" width="200px">
+<label>Science grade:</label>
+	<input type="number" class="form-control" id="sci">
+</div>
+	<br>
+
+<div class="container">
+<img src = "https://static.vecteezy.com/system/resources/previews/017/300/766/non_2x/learning-english-doodle-set-language-school-in-sketch-style-online-language-education-course-hand-drawn-illustration-isolated-on-white-background-vector.jpg" width="200px">
+ <label>English grade:</label>
+	<input type="number" class="form-control" id="eng">
+</div>
+	<br>
+
+<div class="container">
+<img src = "https://media.istockphoto.com/id/1472388193/vector/%C3%B0%C3%B1%C3%B0%C3%B1%C3%B0%C3%B0%C2%BA%C3%B0-%C3%B0-%C3%B0%C3%B0%C3%B0%C3%B1%C3%B1%C3%B1%C3%B1%C3%B0%C3%B1%C3%B0%C3%B0.jpg?s=612x612&w=0&k=20&c=XYOHpk7klwC8lbHflVtxlHsgbXEwdAv4T3ITIXMPeQg=" width="200px">
+ <label>Math grade:</label>
+	<input type="number" class="form-control" id="mathymathyks">
+</div>
+	<br>
+
+
+<!--bmi button-->
+<button type="button" id="submit" class="btn btn-warning mb-2" onclick="getAverage()">Check Average:</button>
+
+<!--refresh-->
+ <button type="button" class="btn btn-warning" onClick="window.location.reload()">Refresh</button>
+ <br>
+ <hr>
+
+ <p> &#169;2025 | <a href="https://github.com/SEscobar-9T">Skyler Greice Immaya A. Escobar</a> | 9-Topaz</p>
+
+</form>
+
+<script src="main.js"></script>
+
+</body>
+</html>

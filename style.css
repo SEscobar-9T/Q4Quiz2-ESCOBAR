@@ -1,0 +1,37 @@
+form {
+	background-color: rgba(227, 108, 39, 0.8);
+	border-radius: 10px;
+	padding: 60px ;
+	margin: 5%;
+	width: 800px;
+	margin-left: 320px;
+}
+
+img {
+  	display: block;
+ 	 margin: auto;
+}
+
+body {
+	background-color: white;
+	font-family: courier;
+}
+
+h1 {
+	background-color: orange;
+	text-align: center;
+	color: white;
+}
+
+p {
+	text-align: center;
+}
+
+.container {
+    
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
